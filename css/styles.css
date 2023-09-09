@@ -1,0 +1,41 @@
+.navbar .logo{
+    font-weight: 600;
+}
+
+ul li a, .nav-section li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.catagories li{
+    padding: 2px;
+}
+
+
+form {
+    max-width: 600px;
+    margin: auto;
+  }
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    transform: translateY(-4px);
+}
+
+.contact-us button:hover, .our-services a:hover{
+    background-color: #fff;
+    color: #0d6efd;
+}
+
+@media screen and (max-width: 992px) {
+    .our-services h3{
+        text-align: center;
+    }
+}
