@@ -7,8 +7,8 @@ ul li a, .nav-section  a{
     color: #fff;
 }
 
-form {
-    max-width: 600px;
+.contact-us form {
+    max-width: 625px;
     margin: auto;
   }
 
@@ -17,7 +17,7 @@ form {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
     transition: all 0.3s ease;
-    margin-bottom: 32px;
+    margin-top: 32px;
 }
   
 .card:hover {
@@ -25,12 +25,16 @@ form {
     transform: translateY(-4px);
 }
 
-.contact-us button:hover, .our-services a:hover{
+.product-section a:hover, .product-sec a:hover{
+    background-color: #fff;
+    color: #0d6efd;
+}
+.contact-us button:hover, .our-services a:hover, .navbar-section form a:hover, .product-sec form button:hover, .product-section form button:hover{
     background-color: #fff;
     color: #0d6efd;
 }
 
-.about-us hr, .our-services hr{
+.about-us hr, .our-services hr, .product-sec hr, .contact-us hr{
     width: 60px;
     background-color: #7c4dff; 
     height: 2px
